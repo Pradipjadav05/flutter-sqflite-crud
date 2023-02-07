@@ -1,16 +1,26 @@
-# database_intro
+# database_intro 
 
-A new Flutter project.
+#sqflit database crud:
 
-## Getting Started
+#steps:
+1. Create Application
 
-This project is a starting point for a Flutter application.
+2. Add Dependancy into pubspace.yaml:
+  - sqflite: ^2.0.3+1
+  - path_provider: ^2.0.12
+  
+3. create DatabaseHandler.dart inside the utils
 
-A few resources to get you started if this is your first Flutter project:
+4. import library:
+ - import 'package:path/path.dart';
+ - import 'package:path_provider/path_provider.dart';
+ - import 'package:sqflite/sqflite.dart';
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+5. write code inside the DatabasebaseHandler
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+6. create user.dart inside the Model:
+
+
+
+
+
